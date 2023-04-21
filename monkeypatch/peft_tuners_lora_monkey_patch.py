@@ -5,7 +5,7 @@ import warnings
 import bitsandbytes as bnb
 
 from peft.tuners import lora
-from peft.tuners.lora import is_bnb_available, Linear, Linear8bitLt, LoraLayer
+from peft.tuners.lora import is_bnb_available, Linear, LoraLayer
 from peft.utils import _get_submodules, PeftType
 from torch import nn
 from transformers.pytorch_utils import Conv1D
